@@ -1,0 +1,45 @@
+header
+{
+    font-size: 300%;
+    background-color: gray;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.low{
+    border-radius: 6px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+.moderate{
+    border-radius: 6px;
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+}
+
+.high{
+    border-radius: 6px;
+    background-color: orange;
+    padding: 5px;
+    color: black;
+}
+
+.vhigh{
+    border-radius: 6px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.extreme{
+    border-radius: 6px;
+    background-color: violet;
+    padding: 5px;
+    color: white;
+}

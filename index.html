@@ -15,7 +15,9 @@
 
     <body>
 
-        <header>Weather Dashboard</header>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
 
         <div class='container'>
 
@@ -38,14 +40,17 @@
                         </div>
                     
                     </div>
+
+                    <div class='search-history'>
+                        <ul id="searches">
+
+                        </ul>
+                    </div>
                 
-                    <button class='btn-btn-secondary' type='button'>Clear Search History</button>
+                    <button class='btn-btn-secondary' id='clearbtn' type='button' onclick="window.localStorage.clear(); window.location.reload();">Clear Search History</button>
     
                     <hr>
     
-                    <div class='search-history'>
-                
-                    </div>
                 </div>
     
                 <div class='col-md-8'>
@@ -54,13 +59,6 @@
 
                         <div class="p-2" id="current-weather">
                             <h1>Current Conditions</h1>
-                            <br>
-                            <p>
-                                <span id="city"></span>
-                                <br>
-                                Feels like: 
-                                <span id="feelsLike"></span>
-                            </p>
                         </div>
 
                         <div class="p-2">
