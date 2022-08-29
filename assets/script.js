@@ -30,9 +30,6 @@ function displayPreviousSearches() {
     }
   }
 
-//event listener to clear storage 
-// clear.on("click", localStorage.clear());
-
 //global variables
 var apiKey = "5b2d2eb99bb618ebba868aac9689df5c"
 var city = "Denver"
